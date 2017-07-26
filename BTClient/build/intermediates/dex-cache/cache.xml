@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/B509IOS3/Desktop/android/BTClient/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cb55997f8ddb319ed36deace98bb6dcb02a3bdae">
+        <dex dex="/Users/B509IOS3/Desktop/android/BTClient/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_6149b0ac0991f30515c3c503730400e8871029e0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/B509IOS3/Desktop/android/BTClient/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dfbd8a61c8abae23cb109098195b994431618533">
+        <dex dex="/Users/B509IOS3/Desktop/android/BTClient/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_1bed24505f4d843e007eb4fc951a9db84c6586e8/classes.dex" />
+    </item>
+
+</items>
