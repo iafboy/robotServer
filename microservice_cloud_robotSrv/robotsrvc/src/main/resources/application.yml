@@ -1,0 +1,39 @@
+eureka:
+  instance:
+    hostname: localhost
+    preferIpAddress: true
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: https://localhost:1111/eureka/
+server:
+  port: 2222
+  ssl:
+    key-store: classpath:sample.jks
+    key-store-password: secret
+    key-password : password
+mybatisdb:
+  filters: stat
+  initialSize: 1
+  maxActive: 50
+  minIdle: 2
+  maxWait: 30000
+  timeBetweenEvictionRunsMillis: 30000
+  minEvictableIdleTimeMillis: 300000
+  validationQuery: SELECT 1
+  testWhileIdle: true
+  testOnBorrow: false
+  testOnReturn: false
+  poolPreparedStatements: false
+  maxPoolPreparedStatementPerConnectionSize: 20
+  removeAbandoned: true
+  removeAbandonedTimeout: 1800
+  logAbandoned: true
+  url: jdbc:mysql://localhost:3306/taccount?autoReconnect=true&useUnicode=true&characterEncoding=utf8
+  username: taccount
+  password: taccount
+  driverClassName: com.mysql.jdbc.Driver
+  logSlowSql: false
+  mergeSql: false
+  slowSqlMillis: 1000

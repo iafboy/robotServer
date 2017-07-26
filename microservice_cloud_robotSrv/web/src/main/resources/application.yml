@@ -1,0 +1,14 @@
+eureka:
+  instance:
+     leaseRenewalIntervalInSeconds: 5   # DO NOT DO THIS IN PRODUCTION
+     preferIpAddress: true
+  client:
+    serviceUrl:
+      defaultZone: https://localhost:1111/eureka/
+    
+server:
+  port: 3333   # HTTPS (Tomcat) port
+  ssl:
+    key-store: classpath:sample.jks
+    key-store-password: secret
+    key-password : password

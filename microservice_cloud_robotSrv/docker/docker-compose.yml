@@ -1,0 +1,40 @@
+hystrix:
+  image: iafboy/hystrix-dashboard
+  ports:
+   - "7979:7979"
+  links:
+   - gateway
+   - discovery
+discovery:
+  image: iafboy/discovery
+  ports:
+   - "1111:1111"
+configserver:
+  image: iafboy/config
+  ports:
+   - "8888:8888"
+  links:
+   - discovery
+gateway:
+  image: iafboy/api-gateway
+  ports:
+   - "10000:10000"
+  links:
+   - discovery
+   - configserver
+   - account
+   - web
+robotsrvc:
+  image: iafboy/robotsrvc
+  ports:
+       - "2222:2222"
+  links:
+   - discovery
+   - configserver
+web:
+  image: iafboy/web
+  ports:
+     - "3333:3333"
+  links:
+   - discovery
+   - configserver
