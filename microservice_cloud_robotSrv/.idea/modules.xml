@@ -6,8 +6,15 @@
       <module fileurl="file://$PROJECT_DIR$/config/config.iml" filepath="$PROJECT_DIR$/config/config.iml" />
       <module fileurl="file://$PROJECT_DIR$/discovery/discovery.iml" filepath="$PROJECT_DIR$/discovery/discovery.iml" />
       <module fileurl="file://$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" filepath="$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/robotsrvc/src/main/main.iml" filepath="$PROJECT_DIR$/robotsrvc/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config/src/main/main1.iml" filepath="$PROJECT_DIR$/config/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api-gateway/src/main/main2.iml" filepath="$PROJECT_DIR$/api-gateway/src/main/main2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/discovery/src/main/main3.iml" filepath="$PROJECT_DIR$/discovery/src/main/main3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/src/main/main4.iml" filepath="$PROJECT_DIR$/web/src/main/main4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-dashboard/src/main/main5.iml" filepath="$PROJECT_DIR$/hystrix-dashboard/src/main/main5.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice_robot.iml" filepath="$PROJECT_DIR$/microservice_robot.iml" />
       <module fileurl="file://$PROJECT_DIR$/robotsrvc/robotsrvc.iml" filepath="$PROJECT_DIR$/robotsrvc/robotsrvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-dashboard/src/test/test.iml" filepath="$PROJECT_DIR$/hystrix-dashboard/src/test/test.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
     </modules>
   </component>
